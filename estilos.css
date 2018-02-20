@@ -1,0 +1,11 @@
+body{height:850px; width:850px; margin: auto; margin-top:30px;}
+#fondo{height:800px; width:850px; background-color:#CCC; padding-top: 5px;}
+h1{font-family: serif; font-size: 5em; color:blue; text-transform: uppercase; text-align: center; }
+h2{font-size: 2.5em; color:#0000FF; margin-left: 25px; text-align: center;}
+.texto{font-size: 1.5em; margin:20px; }
+img{float:right; margin-right: 30px;}
+.premio{background-color: #FFF; width: 800px; height: 450px; border: solid 25px #CCC;}
+form{float:left; position: relative; width:500px; margin-left:30px; margin-top:-260px;}
+.requeridos{font-size:1em; margin:0px; margin-left:7px;}
+input{width:320px; margin:5px; height: 30px;}
+#boton{color:#FFF; background-color: blue;}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Sorteo</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="fondo">
+        <h1>¡¡¡Sorteo!!!</h1>
+        <h2>No te quedes sin tu Play Station 4</h2>
+        <div class="premio">
+            <p class="texto">Envíanos tus datos y entrarás en el sorteo de una Play Station 4 como esta:</p>
+            <img src="ps4.jpg" alt="ps4" title="ps4"/>
+            <form id="formulario" name="formulario" method="post" enctype="multipart/form-data" action="recogidadb.php">
+                <input type="text" name="nombre" required id="nombre" placeholder="*Nombre y Apellidos"/>
+                <input type="text" name="localidad" required id="localidad" placeholder="*Localidad" />
+                <input type="email" name="email" required id="email" placeholder="*Email" />
+                <input type="text" name="telefono" required id="telefono" placeholder="*Tlf" />
+                <p class="requeridos">Los campos con * son requeridos.</p>
+                <input id="boton" type="submit" name="Submit" value="ENVIAR" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>
